@@ -18,6 +18,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
 </head>
 
+<script>
+window.addEventListener("load", () => {
+  setTimeout(()=>{
+    document.querySelectorAll('#crew img').forEach(img => {
+      const src = img.src
+      img.src = ""
+      img.src = src
+    })
+  }, 50)
+})
+</script>    
+    
 <body id="ij2u">
 
 <HEADER id="i4ne">
