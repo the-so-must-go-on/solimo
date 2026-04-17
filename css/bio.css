@@ -306,6 +306,7 @@ pointer-events:none;
 
 #bio-left{ 
     left: clamp(-600px, calc(20vw - 140px), 10px);
+    z-index: 2000;
 }
 
 #bio-right{ 
